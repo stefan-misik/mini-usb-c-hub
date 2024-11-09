@@ -740,6 +740,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 53.34 30.48)
+		(size 39.37 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b1244b8c-c01f-4832-bc10-dbb2901488de")
+		(property "Sheetname" "Upstream Port"
+			(at 53.34 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "upstream-port.kicad_sch"
+			(at 53.34 46.3046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mini-usb-c-hub"
+				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
