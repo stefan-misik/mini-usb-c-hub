@@ -9827,7 +9827,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "local:USB_C_Plug_G-Switch_GT-USB-8016A"
 			(at 251.46 124.46 0)
 			(effects
 				(font
