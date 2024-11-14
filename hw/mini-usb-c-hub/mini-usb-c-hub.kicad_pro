@@ -473,6 +473,23 @@
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.42,
+        "line_style": 0,
+        "microvia_diameter": 0.5,
+        "microvia_drill": 0.3,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -480,7 +497,16 @@
     },
     "net_colors": null,
     "netclass_assignments": null,
-    "netclass_patterns": []
+    "netclass_patterns": [
+      {
+        "netclass": "Default",
+        "pattern": "*USB+"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "*USB-"
+      }
+    ]
   },
   "pcbnew": {
     "last_paths": {
@@ -599,6 +625,18 @@
     [
       "7c04e056-0d84-4da3-ae50-c0eef25c6fa4",
       "Root"
+    ],
+    [
+      "3a3338ad-7d0d-429a-9ebe-8c6db2f36fb7",
+      "Aux USB1"
+    ],
+    [
+      "6954961b-de3c-4bca-aa61-d117dae2b824",
+      "Aux USB2"
+    ],
+    [
+      "d5fb26e1-6ffb-4d31-86a3-773e4f702a40",
+      "Aux USB3"
     ]
   ],
   "text_variables": {}
