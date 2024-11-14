@@ -33,3 +33,6 @@ fp-info-cache
 # Gerber
 gerber/
 gerbers.zip
+
+# Log files
+*.log
