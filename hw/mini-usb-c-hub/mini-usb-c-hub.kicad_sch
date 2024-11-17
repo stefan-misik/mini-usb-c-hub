@@ -3561,7 +3561,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 55.88) (xy 240.03 55.88)
+			(xy 231.14 43.18) (xy 240.03 43.18)
 		)
 		(stroke
 			(width 0)
@@ -4291,16 +4291,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 43.18) (xy 240.03 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eac649e-7ece-4399-b076-233d5d8dd658")
-	)
-	(wire
-		(pts
 			(xy 160.02 134.62) (xy 160.02 140.97)
 		)
 		(stroke
@@ -4531,7 +4521,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 53.34) (xy 240.03 53.34)
+			(xy 231.14 40.64) (xy 240.03 40.64)
 		)
 		(stroke
 			(width 0)
@@ -4741,7 +4731,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 66.04) (xy 240.03 66.04)
+			(xy 231.14 53.34) (xy 240.03 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4868,16 +4858,6 @@
 			(type default)
 		)
 		(uuid "c24dd8d3-fc21-4409-b4b7-501f6520cd89")
-	)
-	(wire
-		(pts
-			(xy 231.14 40.64) (xy 240.03 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c428f716-232b-4f1e-b4ce-01f47d659fb2")
 	)
 	(wire
 		(pts
@@ -5071,7 +5051,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 68.58) (xy 240.03 68.58)
+			(xy 231.14 55.88) (xy 240.03 55.88)
 		)
 		(stroke
 			(width 0)
@@ -5311,7 +5291,7 @@
 		(uuid "01899a24-745f-4807-ae25-aeb960fa96d1")
 	)
 	(label "D2USB-"
-		(at 231.14 66.04 0)
+		(at 231.14 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5388,17 +5368,6 @@
 		(uuid "6d8cda37-1e21-4398-b83c-4cc67a4619ae")
 	)
 	(label "D3USB+"
-		(at 231.14 55.88 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "704898cc-5406-4683-96d1-c3910dd6af0c")
-	)
-	(label "D4USB+"
 		(at 231.14 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5407,7 +5376,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "73929151-54bd-4e09-a9db-2b21c93cdf98")
+		(uuid "704898cc-5406-4683-96d1-c3910dd6af0c")
 	)
 	(label "UUSB+"
 		(at 92.71 46.99 180)
@@ -5432,7 +5401,7 @@
 		(uuid "a45165dc-0027-42dc-9916-3f98217afd7c")
 	)
 	(label "D2USB+"
-		(at 231.14 68.58 0)
+		(at 231.14 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5453,19 +5422,8 @@
 		)
 		(uuid "ae517e50-47c8-4e6c-aee3-2d9ae9349c62")
 	)
-	(label "D4USB-"
-		(at 231.14 40.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c69f4dcf-a395-4d1c-9ede-64ca409cfb36")
-	)
 	(label "D3USB-"
-		(at 231.14 53.34 0)
+		(at 231.14 40.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9505,64 +9463,6 @@
 			(project "mini-usb-c-hub"
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4"
 					(page "4")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 240.03 63.5)
-		(size 24.13 7.62)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "d5fb26e1-6ffb-4d31-86a3-773e4f702a40")
-		(property "Sheetname" "Aux USB3"
-			(at 240.03 62.7884 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "aux-usb.kicad_sch"
-			(at 240.03 71.7046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "USB+" bidirectional
-			(at 240.03 68.58 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "102c62c1-ab47-4f90-9425-1b6be94fa373")
-		)
-		(pin "USB-" bidirectional
-			(at 240.03 66.04 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "a301c70f-9473-48cb-990e-1bcb640adc3b")
-		)
-		(instances
-			(project "mini-usb-c-hub"
-				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4"
-					(page "5")
 				)
 			)
 		)
