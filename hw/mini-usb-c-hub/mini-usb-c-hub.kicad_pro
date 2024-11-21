@@ -607,6 +607,10 @@
     [
       "6954961b-de3c-4bca-aa61-d117dae2b824",
       "Aux USB2"
+    ],
+    [
+      "c0fa39e8-6859-419a-a123-dfe0bed56b96",
+      "Aux USB-C1"
     ]
   ],
   "text_variables": {}

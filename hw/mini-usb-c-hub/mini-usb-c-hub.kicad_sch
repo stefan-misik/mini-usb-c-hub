@@ -3458,16 +3458,16 @@
 		(uuid "007a966d-df40-47c5-8324-a13197bf8db9")
 	)
 	(no_connect
+		(at 132.08 161.29)
+		(uuid "0d88395e-8a8c-4501-ae61-8f792b8ab8eb")
+	)
+	(no_connect
 		(at 53.34 57.15)
 		(uuid "1cc37dbf-d7a0-4a7f-9657-a4e6c9b97600")
 	)
 	(no_connect
 		(at 53.34 59.69)
 		(uuid "31ac71c8-d816-4283-9f49-b78713709fec")
-	)
-	(no_connect
-		(at 132.08 163.83)
-		(uuid "3f962dbf-fa4b-4c43-8946-84c12dbca26b")
 	)
 	(no_connect
 		(at 132.08 173.99)
@@ -3480,10 +3480,6 @@
 	(no_connect
 		(at 251.46 120.65)
 		(uuid "cb042526-1258-4454-9075-b9b99989b41f")
-	)
-	(no_connect
-		(at 132.08 161.29)
-		(uuid "cec0388c-6bb3-4430-adff-b5b132717aea")
 	)
 	(no_connect
 		(at 251.46 118.11)
@@ -3561,7 +3557,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 43.18) (xy 240.03 43.18)
+			(xy 231.14 55.88) (xy 240.03 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4391,6 +4387,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 157.48) (xy 170.18 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ba2b1ee-2973-4efc-be4c-2c2e5125bc2b")
+	)
+	(wire
+		(pts
 			(xy 266.7 134.62) (xy 266.7 135.89)
 		)
 		(stroke
@@ -4458,6 +4464,16 @@
 			(type default)
 		)
 		(uuid "84a5851d-28e4-4e0c-b472-18ef4b883f4c")
+	)
+	(wire
+		(pts
+			(xy 137.16 163.83) (xy 137.16 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87f54cca-a974-4b8e-87c6-a621d715ea75")
 	)
 	(wire
 		(pts
@@ -4531,7 +4547,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 40.64) (xy 240.03 40.64)
+			(xy 231.14 53.34) (xy 240.03 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4671,6 +4687,16 @@
 	)
 	(wire
 		(pts
+			(xy 132.08 163.83) (xy 137.16 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac8e3998-3981-454d-a889-aef97890406c")
+	)
+	(wire
+		(pts
 			(xy 158.75 166.37) (xy 157.48 166.37)
 		)
 		(stroke
@@ -4711,6 +4737,16 @@
 	)
 	(wire
 		(pts
+			(xy 231.14 40.64) (xy 240.03 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b22372ba-46df-4dc2-be32-ef618f753784")
+	)
+	(wire
+		(pts
 			(xy 68.58 132.08) (xy 68.58 134.62)
 		)
 		(stroke
@@ -4741,7 +4777,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 53.34) (xy 240.03 53.34)
+			(xy 231.14 66.04) (xy 240.03 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5061,7 +5097,17 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 55.88) (xy 240.03 55.88)
+			(xy 231.14 43.18) (xy 240.03 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd005336-3b39-48fc-9531-d2ec891f01b1")
+	)
+	(wire
+		(pts
+			(xy 231.14 68.58) (xy 240.03 68.58)
 		)
 		(stroke
 			(width 0)
@@ -5291,7 +5337,7 @@
 		(uuid "01899a24-745f-4807-ae25-aeb960fa96d1")
 	)
 	(label "D2USB-"
-		(at 231.14 53.34 0)
+		(at 231.14 66.04 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5322,6 +5368,17 @@
 			(justify left bottom)
 		)
 		(uuid "24ba9d80-fb65-4b53-84c1-a33891de883a")
+	)
+	(label "D4USB+"
+		(at 231.14 43.18 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2620c636-3c94-40b5-8b80-0669339a3027")
 	)
 	(label "D1USB+"
 		(at 209.55 107.95 0)
@@ -5368,7 +5425,7 @@
 		(uuid "6d8cda37-1e21-4398-b83c-4cc67a4619ae")
 	)
 	(label "D3USB+"
-		(at 231.14 43.18 0)
+		(at 231.14 55.88 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5389,6 +5446,17 @@
 		)
 		(uuid "80106c92-1d32-4e5c-a744-9c0a3ec3cddb")
 	)
+	(label "D4USB-"
+		(at 231.14 40.64 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8c7957fb-f36c-4fe8-b16e-9a5a1821d4b8")
+	)
 	(label "D4USB+"
 		(at 142.24 151.13 180)
 		(fields_autoplaced yes)
@@ -5401,7 +5469,7 @@
 		(uuid "a45165dc-0027-42dc-9916-3f98217afd7c")
 	)
 	(label "D2USB+"
-		(at 231.14 55.88 0)
+		(at 231.14 68.58 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5423,7 +5491,7 @@
 		(uuid "ae517e50-47c8-4e6c-aee3-2d9ae9349c62")
 	)
 	(label "D3USB-"
-		(at 231.14 40.64 0)
+		(at 231.14 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8941,6 +9009,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 173.99 157.48 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dd3e77e1-7da3-4c37-af0c-9da4c2201966")
+		(property "Reference" "R114"
+			(at 173.99 152.4 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "300R"
+			(at 173.99 154.94 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 173.99 159.258 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 173.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 173.99 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52c89ae1-16d6-4ee1-96d3-6a80db971e2c")
+		)
+		(pin "1"
+			(uuid "a2a5fa82-c1a9-4ec2-b093-f1a8e72b6f70")
+		)
+		(instances
+			(project "mini-usb-c-hub"
+				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4"
+					(reference "R114")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Power_Protection:PRTR5V0U2X")
 		(at 231.14 121.92 0)
 		(unit 1)
@@ -9458,6 +9593,64 @@
 				(justify left)
 			)
 			(uuid "2770aa70-3658-4a83-915a-2f7a0612f37e")
+		)
+		(instances
+			(project "mini-usb-c-hub"
+				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 240.03 63.5)
+		(size 24.13 7.62)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0fa39e8-6859-419a-a123-dfe0bed56b96")
+		(property "Sheetname" "Aux USB-C1"
+			(at 240.03 62.7884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "aux-usb-c.kicad_sch"
+			(at 240.03 71.7046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "USB+" bidirectional
+			(at 240.03 68.58 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "b0e1d522-0ed0-4348-bb40-37b0fa3025fa")
+		)
+		(pin "USB-" bidirectional
+			(at 240.03 66.04 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "af08cfb0-5366-4456-9a54-d8db3362b3e4")
 		)
 		(instances
 			(project "mini-usb-c-hub"
