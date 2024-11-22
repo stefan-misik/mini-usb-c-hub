@@ -628,19 +628,19 @@
     ],
     [
       "0cba7ead-2ce4-4d6f-80ca-d37204f10558",
-      "Aux USB-C2"
-    ],
-    [
-      "3a3338ad-7d0d-429a-9ebe-8c6db2f36fb7",
-      "Aux USB1"
-    ],
-    [
-      "6954961b-de3c-4bca-aa61-d117dae2b824",
-      "Aux USB2"
+      "Aux USB-C1"
     ],
     [
       "c0fa39e8-6859-419a-a123-dfe0bed56b96",
-      "Aux USB-C1"
+      "Aux USB-C2"
+    ],
+    [
+      "6954961b-de3c-4bca-aa61-d117dae2b824",
+      "Aux USB1"
+    ],
+    [
+      "3a3338ad-7d0d-429a-9ebe-8c6db2f36fb7",
+      "Aux USB2"
     ]
   ],
   "text_variables": {}

@@ -1292,7 +1292,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02e70143-5ef4-4b7c-8f21-745f605a7bcf")
-		(property "Reference" "C201"
+		(property "Reference" "C501"
 			(at 167.64 85.0899 0)
 			(effects
 				(font
@@ -1346,11 +1346,11 @@
 		(instances
 			(project ""
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/3a3338ad-7d0d-429a-9ebe-8c6db2f36fb7"
-					(reference "C201")
+					(reference "C501")
 					(unit 1)
 				)
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/6954961b-de3c-4bca-aa61-d117dae2b824"
-					(reference "C301")
+					(reference "C401")
 					(unit 1)
 				)
 			)
@@ -1366,7 +1366,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08c6bdc9-127e-40ea-b0a9-fe0c5ede9ede")
-		(property "Reference" "#PWR0202"
+		(property "Reference" "#PWR0501"
 			(at 130.81 88.9 0)
 			(effects
 				(font
@@ -1416,11 +1416,11 @@
 		(instances
 			(project "mini-usb-c-hub"
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/3a3338ad-7d0d-429a-9ebe-8c6db2f36fb7"
-					(reference "#PWR0202")
+					(reference "#PWR0501")
 					(unit 1)
 				)
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/6954961b-de3c-4bca-aa61-d117dae2b824"
-					(reference "#PWR0302")
+					(reference "#PWR0401")
 					(unit 1)
 				)
 			)
@@ -1436,7 +1436,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "644183f3-9109-4ab4-9b23-c6b41ec3e19f")
-		(property "Reference" "#PWR0204"
+		(property "Reference" "#PWR0502"
 			(at 130.81 121.92 0)
 			(effects
 				(font
@@ -1486,11 +1486,11 @@
 		(instances
 			(project "mini-usb-c-hub"
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/3a3338ad-7d0d-429a-9ebe-8c6db2f36fb7"
-					(reference "#PWR0204")
+					(reference "#PWR0502")
 					(unit 1)
 				)
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/6954961b-de3c-4bca-aa61-d117dae2b824"
-					(reference "#PWR0304")
+					(reference "#PWR0402")
 					(unit 1)
 				)
 			)
@@ -1505,7 +1505,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "75f35986-25a3-4f9e-a045-8ce5ef77e36f")
-		(property "Reference" "D201"
+		(property "Reference" "D501"
 			(at 142.24 110.49 0)
 			(effects
 				(font
@@ -1563,11 +1563,11 @@
 		(instances
 			(project "mini-usb-c-hub"
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/3a3338ad-7d0d-429a-9ebe-8c6db2f36fb7"
-					(reference "D201")
+					(reference "D501")
 					(unit 1)
 				)
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/6954961b-de3c-4bca-aa61-d117dae2b824"
-					(reference "D301")
+					(reference "D401")
 					(unit 1)
 				)
 			)
@@ -1584,7 +1584,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d5818e82-a8e0-40f5-8655-cac86b741145")
-		(property "Reference" "J201"
+		(property "Reference" "J501"
 			(at 153.67 73.66 0)
 			(effects
 				(font
@@ -1645,11 +1645,11 @@
 		(instances
 			(project "mini-usb-c-hub"
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/3a3338ad-7d0d-429a-9ebe-8c6db2f36fb7"
-					(reference "J201")
+					(reference "J501")
 					(unit 1)
 				)
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/6954961b-de3c-4bca-aa61-d117dae2b824"
-					(reference "J301")
+					(reference "J401")
 					(unit 1)
 				)
 			)
@@ -1665,7 +1665,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0a659d4-34d3-4982-8a35-fa45890c03ce")
-		(property "Reference" "#PWR0201"
+		(property "Reference" "#PWR0503"
 			(at 144.78 71.12 0)
 			(effects
 				(font
@@ -1715,11 +1715,11 @@
 		(instances
 			(project "mini-usb-c-hub"
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/3a3338ad-7d0d-429a-9ebe-8c6db2f36fb7"
-					(reference "#PWR0201")
+					(reference "#PWR0503")
 					(unit 1)
 				)
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/6954961b-de3c-4bca-aa61-d117dae2b824"
-					(reference "#PWR0301")
+					(reference "#PWR0403")
 					(unit 1)
 				)
 			)
@@ -1735,7 +1735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4811c47-6ce7-4cac-bbdd-305ec448e476")
-		(property "Reference" "#PWR0203"
+		(property "Reference" "#PWR0504"
 			(at 153.67 106.68 0)
 			(effects
 				(font
@@ -1785,11 +1785,11 @@
 		(instances
 			(project "mini-usb-c-hub"
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/3a3338ad-7d0d-429a-9ebe-8c6db2f36fb7"
-					(reference "#PWR0203")
+					(reference "#PWR0504")
 					(unit 1)
 				)
 				(path "/7c04e056-0d84-4da3-ae50-c0eef25c6fa4/6954961b-de3c-4bca-aa61-d117dae2b824"
-					(reference "#PWR0303")
+					(reference "#PWR0404")
 					(unit 1)
 				)
 			)
