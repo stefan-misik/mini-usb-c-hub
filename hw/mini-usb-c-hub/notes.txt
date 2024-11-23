@@ -1,0 +1,5 @@
+JLC Impedance Control: JLC04161H-3313
+DP:
+ * Width: 0.17 mm
+ * Gap: 0.25 mm
+ * To Copper: 0.5 mm
